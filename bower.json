@@ -1,0 +1,31 @@
+{
+  "name": "phoenix",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Doug Goldie <dgoldie15@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.4",
+    "jquery": "~2.2.0"
+  },
+  "overrides": {
+    "jquery-ui": {
+        "main": [ "jquery-ui.js", 
+                  "themes/smoothness/jquery-ui.css",
+                  "themes/smoothness/theme.css"
+                ]
+    }
+  }
+}
